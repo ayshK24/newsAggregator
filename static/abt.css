@@ -1,0 +1,27 @@
+/* Custom CSS styles */
+
+/* Header */
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1710915207822-82bcae14af04?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header{
+  background-color: transparent;
+}
+main {
+  flex: 1; /* Allow main content to grow and fill remaining space */
+}
+
+footer {
+  background-color: transparent; /* Dark background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align content */
+  padding: 20px 0; /* Padding for content */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+}

@@ -1,0 +1,99 @@
+
+  body {
+    background-image: url('https://images.unsplash.com/photo-1710915207822-82bcae14af04?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .col-12.col-md-4.col-lg-3 .card {
+    background-color: transparent;
+    transition: transform 0.3s ease;
+    text-emphasis-color: white;
+}
+
+.col-12.col-md-4.col-lg-3 .card:hover {
+    transform: scale(1.05);
+}
+
+/* Style for card */
+.card {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for card title */
+.card-title {
+  margin-bottom: auto; /* Allow the card body to take remaining space */
+}
+
+.card-title a {
+  text-decoration: none;
+  color: white; /* Set link text color */
+}
+
+/* Style for card body */
+.card-body {
+  padding: 1rem;
+}
+
+/* Style for image */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for copy button */
+.copy-to-clipboard {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin-top: auto; /* Align button to the bottom of the card */
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* Style for social share buttons */
+.social-share {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.social-share button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+  .transparent-navbar {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .transparent-navbar .navbar-nav .nav-link {
+    color: white; 
+  }
+  
+  .transparent-navbar .navbar-nav .nav-link:hover {
+    color: lightgrey; 
+  }
+
+.btn-transparent {
+  background-color: transparent !important; 
+  border: none; 
+  color: white; 
+}
+
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important; 
+  color: white; 
+}
+
